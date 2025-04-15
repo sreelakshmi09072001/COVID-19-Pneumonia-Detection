@@ -1,0 +1,31 @@
+🧠 COVID-19 Detection Using CNN
+This project focuses on building a Convolutional Neural Network (CNN) to detect COVID-19 from chest X-ray images using the publicly available COVID-19 Image Dataset on Kaggle.
+
+📁 Dataset
+The dataset contains chest X-ray images categorized into two classes:
+-Normal
+
+-Viral Pneumonia
+
+These labeled images help train and evaluate the performance of the CNN model in distinguishing between healthy individuals and those with COVID-19 or other forms of pneumonia.
+
+🛠️ Project Features
+Preprocessing of image data (resizing, normalization)
+
+CNN architecture built using TensorFlow/Keras
+
+Model training, validation, and evaluation
+
+Performance metrics: Accuracy, Precision, Recall, F1-Score
+
+Visualization of training history and confusion matrix
+
+📊 Results
+The trained model achieves strong performance in detecting COVID-19 from X-ray scans, with promising results in terms of classification accuracy and generalization.
+
+🚀 Future Improvements
+Incorporate transfer learning using pre-trained models like VGG16 or ResNet
+
+Expand dataset with more diverse X-ray images
+
+Deploy the model as a web or mobile application for real-time predictions
